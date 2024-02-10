@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene background="color:white">
+            <a-camera position="0 8 15"></a-camera>
+            <a-assets timeout="10000">
+                <a-sset-item id="kirby" src="./models/kirby/scene.gltf"></a-sset-item>
+            </a-assets>
+            <!--Modelos GLTF-->
+            <!--kirby-->
+            <a-entity>
+            <a-entity position="-5 -14 -2" rotation="0 55 0" scale="2 2 2" gltf-model="#kirby" shadow="cast:true;"></a-entity>
+            </a-entity>
+
+            <!--Luces en la escena-->
+            <!--Ambiental-->
+            <a-entity light="type: ambient; intensity:0.5;"></a-entity>
+
+            <!--Direccional-->
+            <a-entity animation="property: rotation; to: 0 360 0; easing:linear; loop:true; dur:60000">
+                <a-entity light="type: directional; castShadow:true; intensity:1; distance:50; decay:2; color:orange" position="-100 18 2"></a-entity>
+            </a-entity>
+            <!--Plano circular-->
+            <a-circle position="-0.4 6 -25" rotation="-90 0 0" radius="100" shadow="receive:true" visible="true" color="#2e6f10"></a-circle>
+
+        </a-scene>
+    </body>
+</html>

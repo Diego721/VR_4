@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kirby's Tamagochi
+* source:	https://sketchfab.com/3d-models/kirbys-tamagochi-a27e5e45bf904a55b24f0828120f95ce
+* author:	Miaru3d (https://sketchfab.com/miaru3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kirby's Tamagochi" (https://sketchfab.com/3d-models/kirbys-tamagochi-a27e5e45bf904a55b24f0828120f95ce) by Miaru3d (https://sketchfab.com/miaru3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
